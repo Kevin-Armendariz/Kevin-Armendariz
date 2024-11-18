@@ -12,7 +12,7 @@ function DetalleActividad(props) {
           <p>{props.itemData.descripcion}</p>
           <p>{props.itemData.fecha}</p>
           <div>
-                <img src={props.itemData.estado ? Complete : Incomplete} className='imgStyle' />
+                <img src={props.itemData.estado ? Complete : Incomplete} className='estilo-imagen' />
             </div>
           <button onClick={()=>{
            const newData = {id, nombre, descripcion, fecha, estado: !estado };
