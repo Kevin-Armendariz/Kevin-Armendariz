@@ -16,13 +16,16 @@ function DetalleActividad(props) {
             </div>
           <button onClick={()=>{
            const newData = {id, nombre, descripcion, fecha, estado: !estado };
-            props.changeActivity(newData)}}>Eliminar</button>
+            props.changeActivity(newData)}}} >Cambiar</button>
+          <button onClick={() => {
+            props.deleteActivity(id)}}  >Eliminar</button>
         </div>
       </div>);
 }
 
 DetalleActividad.propTypes= {
   changeActivity: PropTypes.func.isRequired,
+  deleteActivity: PropTypes.func.isRequired,
   itemData: PropTypes.object.isRequired,
 };
 
