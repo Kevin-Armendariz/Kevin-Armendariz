@@ -1,0 +1,37 @@
+.caja {
+  border: 5px solid black;
+  width: 380px;
+  float: left;
+  height: 380px;
+  background-color: red;
+}
+.header {
+  text-align: center;
+  font-size: 100px;
+  border: 10px solid black;
+  width: 90%;
+  border-radius: 20px;          
+  margin-left: 4%;     
+  background-color: blue;                                                                   
+}
+.principal { 
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  
+
+}
+.lista {
+  border: 5px solid black;
+  width: 65%;
+  height: 500px;
+  float: right;
+  background-color: yellow;
+  margin-left: 3%;
+}
+
+.ladero {
+  background-color: rgb(57, 235, 137);
+  width: 20%;
+}

@@ -1,0 +1,9 @@
+[
+    {
+      "id": 1,
+      "nombre": "Actividad 1",
+      "descripcion": "Descripción de la actividad",
+      "estado": false,
+      "fecha": "2023-12-01"
+    }
+  ]
