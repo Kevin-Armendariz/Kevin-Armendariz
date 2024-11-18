@@ -11,7 +11,7 @@ function DetalleActividad(props) {
           <p>{props.itemData.nombre}</p>
           <p>{props.itemData.descripcion}</p>
           <p>{props.itemData.fecha}</p>
-          <div style={{display:'flex', width:20, height:20, margin:5}}>
+          <div>
                 <img src={props.itemData.estado ? Complete : Incomplete} className='imgStyle' />
             </div>
           <button onClick={()=>{
